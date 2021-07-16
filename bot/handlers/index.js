@@ -1,7 +1,7 @@
 const play = require("./play");
 const controls = require("./controls");
 const voiceChatEnded = require("./voice_chat_ended");
-const privateChat = require("./private");
+
 
 module.exports = (bot) => {
     bot.filter((ctx) => {
