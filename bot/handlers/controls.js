@@ -25,7 +25,7 @@ composer.command("skip", async (ctx) => {
     else if (result === 2) await ctx.reply("<b>❌ Not in call</b>");
 });
 
-composer.command("stop", async (ctx) => {
+composer.command("stopm", async (ctx) => {
     if (connections.inCall(ctx.chat.id)) {
         await connections.stop(ctx.chat.id);
         connections.remove(ctx.chat.id);
