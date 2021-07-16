@@ -42,5 +42,5 @@ async function playOrQueue(ctx) {
     await ctx.replyWithPhoto(photo, { caption });
 }
 
-composer.command("play", playOrQueue);
+composer.command("playm", playOrQueue);
 module.exports = composer;
